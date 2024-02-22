@@ -5,27 +5,24 @@ let oylik = 10000
 console.log("Oylik  " + oylik);
 
 let car = 3000
-let carOne = oylik - car
-console.log("Car  " + carOne);
+console.log("Car  " + car);
 
 let iphone = 670
-let iphoneOne = oylik - iphone
-console.log("Iphone " + iphoneOne);
+console.log("Iphone " + iphone);
 
 let noutbook = 800
-let noutbookOne = oylik - noutbook
-console.log("Noutbook  " + noutbookOne);
+console.log("Noutbook  " + noutbook);
 
 
 let ostatok = oylik - car - iphone - noutbook
 console.log("Qolgan Pul  " + ostatok);
 
 
-let arenda = ostatok / 100 * 55
+let arenda = ostatok / 100 * 60
 console.log("Arenda  " + arenda);
 
 
-let chontakga = ostatok / 100 * 45
+let chontakga = ostatok / 100 * 40
 console.log("Cho'ntakga  " + chontakga);
 
 // Ikkinchi
