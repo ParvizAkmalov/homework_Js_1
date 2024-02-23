@@ -48,3 +48,23 @@ console.log("Bir Hafta Harajat  " + haftada);
 
 let haftalikFoyda = QolganSuma * 7
 console.log("Bir haftada cho'ntakga qolgan pul  " + haftalikFoyda);
+
+
+console.log("                                     3-Misol");
+
+let Drectoroylik = 125400
+console.log("Drektor oladigan oylik  " + Drectoroylik);
+
+
+let remont = 10000
+console.log("Remont " + remont);
+
+let gaz = 30000
+console.log("Gaz " + gaz);
+
+
+let kitob = 70000
+console.log("Kitob " + kitob);
+
+let opshisuma = (Drectoroylik - remont) - gaz - kitob
+console.log("Qolgan  " + opshisuma);
